@@ -1,0 +1,39 @@
+{
+  "contracts": {
+    "ds-test_9310e87": {
+      "name": "ds-test",
+      "deps": {
+      },
+      "repo": {
+        "name": "ds-test-9310e87",
+        "url": "https://github.com/dapphub/ds-test",
+        "rev": "9310e879db8ba3ea6d5c6489a579118fd264a3f5",
+        "ref": ""
+      }
+    },
+    "forge-std_6f3b43c": {
+      "name": "forge-std",
+      "deps": {
+        "ds-test": "ds-test_9310e87"
+      },
+      "repo": {
+        "name": "forge-std-6f3b43c",
+        "url": "https://github.com/foundry-rs/forge-std",
+        "rev": "6f3b43cad7476a5aa7be5c5f27388f0ce40b0424",
+        "ref": ""
+      }
+    }
+  },
+  "this": {
+      "name": "mock-repo.git",
+      "deps": {
+        "forge-std": "forge-std_6f3b43c"
+      },
+      "repo": {
+        "name": "mock-repo.git-09e617b",
+        "url": "https://github.com/sambacha/mock-repo.git",
+        "rev": "09e617b26a072253877b4079c0e710effc2dd8c4",
+        "ref": ""
+      }
+  }
+}

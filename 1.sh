@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-set -v
-
 export getSpec='rev=$(git rev-parse HEAD); \
 fullref=$(git for-each-ref --contains $rev | sed -n "s/^.*refs\/\(heads\|remotes\/\)//p" | sort -k1.1,1.1 -rs | head -n1); \
 remote=${fullref%/*}; remote=${remote:-origin};
